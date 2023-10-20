@@ -64,7 +64,7 @@ jobs:
       - name: Terraform Output
         id: output
         run: terraform output
-      # Terraform destroy command add 1
+      # Terraform destroy command add 12
       - name: Terraform Destroy
         id: destroy
         run: terraform destroy
